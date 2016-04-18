@@ -40,10 +40,10 @@ This sample project uses NodeJS, Express and MySQL database. The data is in JSON
 - Opera
 
 ##Installation
-- create MySQL database using mysql-db-create.sql
-- run **npm install**
-- run **npm start**
-- open the website at http://localhost:3000
+- Create MySQL database using mysql-db-create.sql
+- Run **npm install**
+- Run **npm start**
+- Open the website at [localhost:3000](http://localhost:3000)
 
 ##jQuery Compatibility
 - Works with jQuery from [version 1.7](http://code.jquery.com/jquery-1.7.min.js)
