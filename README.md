@@ -14,7 +14,7 @@ This sample project uses NodeJS, Express and MySQL database. The data is in JSON
 - Annotated source code
 - Solid documentation
 
-### Sorting
+###Sorting
 - Ascending and descending sorting
 - Sort numbers, text, date and time
 - SELECT and UL/LI sort controls
@@ -32,25 +32,20 @@ This sample project uses NodeJS, Express and MySQL database. The data is in JSON
 - Reset button Control
 - Back button Control
 
-##jPList CDN
-jPList CDN is provided by [cdnjs](http://www.cdnjs.com):
-
-```
-<script src="//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.35/jplist.min.js"></script>
-```
-
-```
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jplist/5.1.35/jplist.min.css" />
-```
-
-###Browser Compatibility
+##Browser Compatibility
 - Internet Explorer 8+
 - Firefox
 - Chrome
 - Safari
 - Opera
 
-###jQuery Compatibility
+##Installation
+- create MySQL database using mysql-db-create.sql
+- run **npm install**
+- run **npm start**
+- open the website at http://localhost:3000
+
+##jQuery Compatibility
 - Works with jQuery from [version 1.7](http://code.jquery.com/jquery-1.7.min.js)
 - Works with jQuery 2.x versions
 

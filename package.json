@@ -21,11 +21,11 @@
     "db": {
         "host": "127.0.0.1",
         "user": "root",
-        "password": "root",
-		"database": "jplist_nodejs"
+        "password": "",
+		"database": "jplist"
     },
 	"author": {
-	"name": "Miriam ZUsin",
+	"name": "Miriam Zusin",
     "email": "no81no@gmail.com"
 	},
 	"repository": {
