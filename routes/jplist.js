@@ -56,10 +56,10 @@ var getFilterQuery = function(status, prevQuery, preparedParams){
 				if(data.path && data.value){
 					
 					if(prevQuery.indexOf('where') !== -1){						
-						query = ' and title like ?? ';
+						query = ' and title like ? ';
 					}
 					else{
-						query = 'where title like ?? ';
+						query = 'where title like ? ';
 					}
 					
 					preparedParams.push('%' + data.value + '%');
@@ -72,10 +72,10 @@ var getFilterQuery = function(status, prevQuery, preparedParams){
 				if(data.path && data.value){
 					
 					if(prevQuery.indexOf('where') !== -1){						
-						query = ' and description like ?? ';
+						query = ' and description like ? ';
 					}
 					else{
-						query = 'where description like ?? ';
+						query = 'where description like ? ';
 					}
 					
 					preparedParams.push('%' + data.value + '%');
@@ -248,7 +248,7 @@ var jplist = function(statuses, callback){
 		query = 'SELECT title, description, image, likes, keyword1, keyword2 FROM Item ' + filter + ' ' + sort + ' ' + paging;
 		
 		stmt = connection.query(query, preparedParams, function(err, results){
-		
+		  console.log(err);
 			callback({
 				count: count
 				,data: results
